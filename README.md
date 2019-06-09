@@ -12,13 +12,14 @@ git clone https://github.com/asabi/omnifocus2mindmap.git ~/Documents/omnifocus2m
 
 ## run the script:
 
-Note: This scripts does a curl request to a Lambda function on AWS that does the actuall conversion of the information into a mindmap (https://json.tomindmap.com)
+Note: This script does a curl request to a Lambda function on AWS that does the actuall conversion of the information into a mindmap (https://json.tomindmap.com).
+The Lambda does everything in memory and does not store any of the information.
 
 ```
 php ~/Documents/omnifocus2mindmap/of2mm.php 
 ```
 
-This will generate a new file on your desktop named "omnifocus <date and time>.mm"
+This will generate a new file on your desktop named "omnifocus - date and time.mm"
 
 You can open this file in one of the following mindmapping tools:
 
