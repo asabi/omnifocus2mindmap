@@ -29,7 +29,7 @@ You can open this file in one of the following mindmapping tools:
 * Any other mindmapping tool that supports freemind format
 
 
-## Make it "fancy through a button on Omnifocus
+## Make it "fancy" through a button on Omnifocus
 
 * Make sure the of2mm.php file is executable:
 
