@@ -15,7 +15,7 @@ git clone https://github.com/asabi/omnifocus2mindmap.git ~/Documents/omnifocus2m
 Note: This script does a curl request to a Lambda function on AWS that does the actuall conversion of the information into a mindmap (https://json.tomindmap.com).
 The Lambda does everything in memory and does not store any of the information.
 
-Note 2: The script assumes that all projects are at least one level deep in a folder, so any projects outside of folders will not show ... 
+Note 2: The script assumes that all projects are at least one level deep in a folder, so any projects outside of folders will not show. Make sure that your projects are under a folder.
 
 ```
 php ~/Documents/omnifocus2mindmap/of2mm.php 
